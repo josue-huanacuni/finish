@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?familia=Mukta:peso@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?familia=Roboto:peso@700&display=swap');
+.baner-1{
+    background-color: #F4801C;
+    padding: 10px;
+    font-family: 'Almarai', sans-serif;
+}
+.baner{
+    display: flex;
+    align-items: center;
+}
+.card-logo img{
+    width: 90%;
+    border-radius: 10px;
+}
+.busqueda input{
+    background-color: #FBD0AD;
+    border-color: #F4801C;
+}
+.busqueda button{
+    border-color: black;
+    color: black;
+}
+.busqueda button:hover{
+    background-color: #9CBBC5;
+    border-color: #9CBBC5;
+    color: #FFFFFF;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.baner-2{
+    background-color: #FBD0AD;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Almarai', sans-serif;
+}
+.namelink{
+    padding: 10px;
+}
+.namelink:hover{
+    background-color: #F4801C;
+    border-radius: 10px;
+}
+.baner-a{
+    display: flex;
+    align-items: center;
+}
+
+.publicidad img{
+    width: 100%;
+    height: 440px;
+}
+
+.titulo{
+    padding: 20px;
+    font-family: 'Mukta', sans-serif;
+}
+
+.producto{
+    padding: 30px;
+    font-family: 'Almarai', sans-serif;
+}
+.producto img{
+    width: 100%;
+    height: 110px;
+}
+.producto button{
+    background-color: #9CBBC5;
+    color: #874C20;
+    border-color: #9CBBC5;
+}
+.producto button:hover{
+    background-color: #609cb1;
+    color: #8b420a;
+    border-color: #609cb1;
+}
+
+footer{
+    background-color: #DCD1CC;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+.mapa img{
+    width: 50%;
+    padding: 5px;
+}
+.libro img{
+    width: 40px;
+    padding: 5px;
+}
+/*for desktop - lg */
+@media(min-width:992px) and (max-width:1600px){
+    .menu{
+        display: none;
+    }
+}
+/* for tablet - md */
+@media(min-width:768px) and (max-width:991px){
+    .nameicon{
+        display: none;
+    }
+    .card-logo img{
+        width: 120%;
+    }
+    .menu{
+        display: none;
+    }
+
+    .publicidad img{
+        width: 100%;
+        height: 340px;
+    }
+
+    .producto img{
+        width: 90%;
+        height: 90px;
+    }
+
+    .mapa img{
+        width: 100%;
+    }
+}
+
+/* for phone - sm */
+@media(min-width:320px) and (max-width:767px){
+    .name{
+        display: none;
+    }
+    .nameicon{
+        display: none;
+    }
+    .card-logo img{
+        width: 50px;
+    }
+
+    .baner-2{
+        display: none;
+    }
+    .baner-a{
+        font-size: 12px;
+    }
+
+    .publicidad img{
+        width: 100%;
+        height: 240px;
+    }
+
+    .producto{
+        font-size: 15px;
+    }
+    .producto img{
+        width: 70%;
+        height: 80px;
+    }
+    .producto button{
+        font-size: 15px;
+    }
+
+    .mapa img{
+        width: 100%;
+    }
+    footer{
+        font-size: 10px;
+    }
+    footer h5{
+        font-size: 15px;
+    }
+
+}
